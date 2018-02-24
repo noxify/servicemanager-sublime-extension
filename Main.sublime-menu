@@ -1,0 +1,42 @@
+[
+    {
+        "mnemonic": "n", 
+        "caption": "Preferences", 
+        "id": "preferences", 
+        "children": [
+            {
+                "mnemonic": "P", 
+                "caption": "Package Settings", 
+                "id": "package-settings", 
+                "children": [
+                    {
+                        "caption": "HPSM", 
+                        "children": [
+                            {
+                                "caption": "Settings", 
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/sublime_hpsm/hpsm.sublime-settings",
+                                    "default": "// Settings in here override those in \"sublime_hpsm/hpsm.sublime-settings\",\n\n{\n\t$0\n}\n"
+                                }
+                            },
+                            {
+                                "caption": "-"
+                            },
+                            { 
+                                "command": "open_dir", 
+                                "args": {"dir": "$packages/sublime_hpsm/templates"}, 
+                                "caption": "Browse Core Templates..."
+                            },
+                            { 
+                                "command": "open_dir", 
+                                "args": {"dir": "$packages/User/sublime_hpsm/templates"}, 
+                                "caption": "Browse User Templates..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

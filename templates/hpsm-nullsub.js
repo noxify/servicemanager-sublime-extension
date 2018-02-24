@@ -1,0 +1,1 @@
+system.functions.nullsub( ${0:argument}, ${1:fallback} );

@@ -1,0 +1,7 @@
+[
+   { "caption": "-" },
+   { "caption": "HPSM - Push File to...", "command": "hpsm_sl_push" },
+   { "caption": "HPSM - Pull File from...", "command": "hpsm_sl_pull" },
+   { "caption": "HPSM - Compile File in...", "command": "hpsm_sl_compile" },
+   { "caption": "-" }
+]

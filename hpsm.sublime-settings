@@ -1,0 +1,33 @@
+{
+	"Fullname"		: "Marcus Reinhardt",
+	"Shortname"		: "MR",
+	"Company"		: "",
+	"Email"			: "webstone@gmail.com",
+	"CurrentYear"	: "2018",
+
+	"environments"	: {
+
+		"development"	: {
+			"displayname"		: "Development Environment",
+			"servername" 		: "http://127.0.0.1",
+			"serverport" 		: ":13080",
+			"username"	 		: "DEVAdminUsername",
+			"password"	 		: "DEVAdminPassword",
+			"api_path"	 		: "/SM/9/rest/",
+			"api_service"		: "ScriptLibrary",
+			
+			"destination"		: "/Library/Path/Development/",
+			"file_ext"			: ".js",
+
+			"default_package" 	: "User"
+		}
+	},
+	
+	"autocomplete"	: {
+		"prefix"		: "",
+		"min_length"	: 2
+	},
+
+	"debug"				: 0
+	
+}

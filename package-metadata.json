@@ -1,0 +1,5 @@
+{
+	"version": "3.0.0", 
+	"url": "https://github.com/noxify/sublime_hpsm", 
+	"description": "HP Service Manager Package for Syntax Highlighting, Auto Complete and Push/Pull/Compile from local/remote ScriptLibraries."
+}

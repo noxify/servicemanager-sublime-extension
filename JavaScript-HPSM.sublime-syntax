@@ -1,0 +1,19 @@
+%YAML 1.2
+---
+# Extends the Standard Javascript Syntax with the missing objects/functions for HPSM
+# Derived from JavaScript Next: https://github.com/Benvie/JavaScriptNext.tmLanguage
+name: JavaScript-HPSM
+file_extensions:
+  - js
+scope: source.hpsm
+
+variables:
+  identifier: '[_$[:alpha:]][_$[:alnum:]]*'
+
+
+contexts:
+
+  main:
+    - match: ''
+      #load JS Syntax 
+      push: 'scope:source.js'
