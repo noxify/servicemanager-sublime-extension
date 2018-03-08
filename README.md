@@ -1,6 +1,6 @@
-# Sublime HPSM
+# Service Manager Sublime Extension
 
-A Sublime Text package which allows you to create and modify HPSM ScriptLibraries outside the HPSM Client.
+A Sublime Text package which allows you to create and modify Service Manager ScriptLibraries outside the Service Manager Client.
 
 # Features
 
