@@ -20,6 +20,53 @@ A Sublime Text package which allows you to create and modify Service Manager Scr
 
 Note: If you have also `Package Control` installed, please add `"remove_orphaned": true,` to your `Package Control User Settings`. Otherwise the package will be removed.
 
+Inside the Service Manager, you have to create a new `extaccess` record.
+
+Please ensure that the used operator has enough permissions to create/update/compile a ScriptLibrary and that the capability `RESTful API` is set in the operator.
+
+### Header fields
+
+| Field Name   | Value         |
+| ------------ | ------------- |
+| Service Name | ScriptLibrary |
+| Name         | ScriptLibrary |
+| Object Name  | ScriptLibrary |
+
+### Tab Allowed Actions
+
+| Allowed Actions | Action Names | Action Type |
+| --------------- | ------------ | ----------- |
+| add             | Create       | Create only |
+| save            | Update       | Update only |
+| compile         | Compile      | <empty>     |
+
+### Tab Fields
+
+| Field   | Caption | Type    |
+| ------- | ------- | ------- |
+| name    | Name    | <empty> |
+| package | Package | <empty> |
+| script  | Script  | <empty> |
+
+```
+In this package, you can't use different captions - sorry.
+```
+
+### Tab RESTful
+
+| Field                             | Value         |
+| --------------------------------- | ------------- |
+| RESTful enabled                   | true          |
+| Resource Collection Name          | ScriptLibrary |
+| Resource Name                     | ScriptLibrary |
+| Unique Keys                       | name          |
+| Resource Collection Action - POST | Create        |
+| Resource Actions - POST           | Update        |
+| Resource Actions - PUT            | Compile       |
+
+If you're using a different Resource Collection Name and/or Resource Name, you have to modify also the extension settings. See `api_serivce` inside the configuration. This package requires the same name for the `Resource Collection Name` and `Resource Name`.
+
+
 # Configuration
 
 ```
